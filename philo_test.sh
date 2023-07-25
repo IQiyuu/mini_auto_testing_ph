@@ -13,3 +13,5 @@ make re
 ./philo 4 214748364732 200 200 > p9 #invalid arg
 ./philo 4 214748364732 200 200 2> p9
 ./philo 4 200 210 200 | grep "dead" > p10
+./philo 4 200 200 > p11 #invalid number of arg
+./philo 4 200 200 2> p11
